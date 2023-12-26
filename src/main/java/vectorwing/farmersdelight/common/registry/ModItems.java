@@ -445,7 +445,7 @@ public class ModItems
 			() -> new ConsumableItem(bowlFoodItem(FoodValues.SHEPHERDS_PIE), true));
 
 	public static final RegistryObject<Item> RICE_ROLL_MEDLEY_BLOCK = registerWithTab("rice_roll_medley_block",
-			() -> new BlockItem(ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get(), basicItem().stacksTo(1)));
+			() -> new BlockItem(ModBlocks.RICE_ROLL_MEDLEY_BLOCK.get(), basicItem().stacksTo(64)));
 
 	// Pet Foods
 	public static final RegistryObject<Item> DOG_FOOD = registerWithTab("dog_food",
